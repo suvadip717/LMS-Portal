@@ -1,0 +1,23 @@
+.page-container-foot{
+    background-color: #230ba8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .footer-home-row{
+    display: block;
+    margin: auto;
+  }
+  .footer-content{
+    text-align: center;
+  }
+  .footer-content-inner{
+    font-size: 13px;
+    text-align: center;
+  }
+  .footer-content-inner p {
+    
+    color: #c0c0c0;
+  }
+  .footer-content-inner p{
+    margin-bottom: 0px;
+  }

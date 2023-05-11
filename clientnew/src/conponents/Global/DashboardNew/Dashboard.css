@@ -1,0 +1,102 @@
+.profile-container-links a {
+  color: black;
+}
+
+.profile-container-links a:hover {
+  color: blue;
+}
+
+.profile-heading {
+  /* width: 85%; */
+  margin: 42px auto;
+  text-align: center;
+}
+
+.profile-name {
+  font-weight: 700;
+  font-size: 2rem;
+  padding-bottom: 24px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.profile-container {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+  justify-content: space-between;
+}
+
+.profile-container-info,
+.profile-container-about,
+.profile-container-links {
+  margin: 16px 0;
+  /* flex-basis: 30%; */
+}
+
+.profile-container-about {
+  position: relative;
+}
+
+.profile-container-about::before {
+  content: "";
+  height: 90%;
+  width: 2px;
+  position: absolute;
+  top: 27px;
+  left: -45px;
+  background-color: #a5a5a5;
+}
+
+.profile-container-about::after {
+  content: "";
+  height: 90%;
+  width: 2px;
+  position: absolute;
+  top: 27px;
+  right: -45px;
+  background-color: #a5a5a5;
+}
+
+@media screen and (max-width: 480px) {
+  .profile-container-about::before,
+  .profile-container-about::after {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 480px) {
+  .profile-container-info,
+  .profile-container-about,
+  .profile-container-links {
+    flex-basis: 30%;
+  }
+  .profile-container-links {
+    padding: 0 32px;
+  }
+}
+.profile-container-links {
+    width: 100%;
+}
+
+.profile-info-title,
+.profile-about-title,
+.profile-link-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.profile-info,
+.profile-about,
+.profile-link {
+  padding: 8px 0;
+  text-align: justify;
+}
+
+.pi-title {
+  font-weight: 500;
+}

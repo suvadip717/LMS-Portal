@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+
+.profile-page-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  max-width: 1140px;
+  margin: auto;
+  padding: 42px 0;
+}
+
+.container-profile-main {
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #a5a5a5;
+  width: 75%;
+  padding-bottom: 32px;
+  margin-bottom: 48px;
+}
+
+.container-profile-data {
+  display: flex;
+}
+
+.container-left {
+  flex-basis: 70%;
+}
+.container-right {
+  flex-basis: 30%;
+}
+
+.goto-link-container {
+  display: flex;
+}
+
+.item-left {
+  margin-right: 32px;
+}
+
+.profile-cover {
+  width: 100%;
+  height: 200px;
+  background: url("../../../assets/student-profile-cover.webp");
+  background-size: cover;
+
+  border-radius: 15px 15px 0 0;
+}
+
+.profile-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  background: #1976d2;
+  margin-inline: auto;
+  transform: translateY(-50%);
+  margin-bottom: -40px;
+}
+
+.profile-icon h3 {
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.profile-name h2 {
+  font-size: 2.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+
+.profile-name,
+.profile-info-container {
+  margin-left: 5%;
+}
+
+.profile-info-data {
+  color: #6a6a6a;
+  padding: 3px 0;
+}
+.info {
+  font-weight: bold;
+}
+
+.btn-edit {
+  border: 1px solid;
+  /* height: 42px; */
+  border-radius: 5px;
+  font-family: Arial;
+  color: #fff;
+  font-size: 16px;
+  background: #3972e3;
+  /* padding: 5px 30px 5px 30px; */
+  text-decoration: none;
+  margin-left: 5%;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.btn-edit {
+  padding: 8px 45px;
+  border-radius: 10px;
+}
+
+.btn-edit:hover {
+  background: #3a40ee;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-query {
+  border: none;
+  margin-left: 5%;
+  padding: 10px 15px;
+  background: #3972e3;
+  border-radius: 10px;
+}
+
+.btn-query a:hover {
+  color: #a5a5a5;
+}
+
+.goto-links-container {
+  margin-left: 5%;
+  padding: 10px 0;
+}
+
+.goto-link-hading {
+  font-weight: 600;
+  padding: 8px 0;
+  color: #6a6a6a;
+}
+
+.goto-link a {
+  color: black;
+  display: block;
+  line-height: 32px;
+}
+
+@media screen and (max-width: 480px) {
+  .container-profile-main {
+    width: 85%;
+  }
+  .profile-page-title {
+    text-align: center;
+  }
+  .profile-icon {
+    margin: 0 auto -40px;
+  }
+  .profile-name {
+    text-align: center;
+    margin: 0;
+  }
+  .container-profile-data {
+    flex-direction: column;
+  }
+
+  .goto-links-container {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .container-left {
+    flex-basis: 65%;
+  }
+  .container-profile-data {
+    width: 90%;
+    margin: auto;
+  }
+
+  .goto-link-container {
+    justify-content: space-between;
+  }
+}

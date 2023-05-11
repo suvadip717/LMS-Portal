@@ -1,0 +1,155 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap");
+
+.hero-text-faculty {
+  margin: 0 auto;
+  padding: 48px 0;
+  text-align: left;
+  width: 74%;
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+
+.outer-container {
+  background-image: url('./FacultyImage/background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container-main {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+}
+
+.HOD::before {
+  content: "";
+  position: absolute;
+  left: 32.5%;
+  top: 5.5%;
+  height: 2rem;
+  width: 5px;
+  background-color: #0000ff;
+}
+
+.faculty-type {
+  position: relative;
+}
+
+.faculty-type .faculty-title {
+  width: 100%;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 24px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.faculty-starting-symbol::before {
+  content: "";
+  position: absolute;
+  left: 40.5%;
+  top: 32px;
+  height: 2rem;
+  width: 5px;
+  background-color: #0000ff;
+}
+
+.faculty-content {
+  margin: 24px 0;
+  padding: 40px 90px;
+  text-align: justify;
+}
+
+.faculty-row {
+  margin-bottom: 50px;
+}
+
+.faculty-image {
+  width: 400px;
+  height: 400px;
+}
+
+.faculty-image-container {
+  position: relative;
+}
+
+.faculty-image-left-bg,
+.faculty-image-left {
+  height: 386px;
+  width: 386px;
+  position: absolute;
+}
+
+.faculty-image-left-bg {
+  background: -webkit-linear-gradient(
+    41deg,
+    #0000ff 0%,
+    #88bff7 30%,
+    #88bff7 64%,
+    #3e2aaa 100%
+  );
+  right: 65px;
+  top: -45px;
+}
+
+.faculty-image-left {
+  right: 20px;
+}
+
+.faculty-image-left img {
+  height: 386px;
+  width: 386px;
+}
+
+.faculty-image-right-bg,
+.faculty-image-right {
+  height: 386px;
+  width: 386px;
+  position: absolute;
+}
+
+.faculty-image-right-bg {
+  background: -webkit-linear-gradient(
+    41deg,
+    #0000ff 0%,
+    #88bff7 30%,
+    #88bff7 64%,
+    #3e2aaa 100%
+  );
+  left: 65px;
+  top: -45px;
+}
+
+.faculty-image-right {
+  left: 20px;
+}
+
+.faculty-image img {
+  height: 386px;
+  width: 386px;
+}
+
+.faculty-description {
+  display: grid;
+  grid-template-rows: 95px 55px auto;
+  justify-content: center;
+}
+
+.faculty-name {
+  font-size: 1.8rem;
+  padding: 10px 15px;
+  font-weight: 600;
+  justify-self: flex-start;
+  align-self: center;
+  border: 3px solid #0000ff;
+  border-radius: 15px 0 15px 0;
+}
+
+.faculty-designation {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.3rem;
+} */

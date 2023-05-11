@@ -1,0 +1,174 @@
+.ps-page-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  max-width: 1250px;
+  margin: auto;
+  padding: 42px 0;
+}
+
+.container-main-ps {
+  border-radius: 5px;
+  box-shadow: 0 0 10px #a5a5a5;
+  max-width: 1288px;
+  padding: 24px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 48px;
+}
+
+.annual-intake {
+  text-align: left;
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  padding: 24px 0;
+  margin-left: 10px;
+}
+
+/* Annual Intake table css starts*/
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+.pandstable tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+/* Annual Intake table css ends*/
+
+
+.Btech-program {
+  text-align: left;
+  padding-left: 10px;
+
+  margin: 26px 0 50px;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.batch-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.batch-year {
+  position: relative;
+}
+
+.batch-year .batch-year-title {
+  text-align: left;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.batch-container a {
+  color: black;
+}
+
+.batch-container ul {
+  list-style: none;
+}
+
+.batch-container ul li {
+  display: flex;
+  align-items: center;
+  height: 35px;
+}
+
+.batch-container ul li a {
+  text-decoration: none;
+}
+
+.batch-container ul li a:hover {
+  color: #0000ff;
+}
+
+@media screen and (max-width: 480px) {
+  
+  .ps-page-title {
+    text-align: center;
+  }
+/* 
+  table {
+    display: none;
+  } */
+}

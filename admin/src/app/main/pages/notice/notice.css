@@ -1,0 +1,88 @@
+@media only screen and (min-width: 600px) {
+    .notice-upload-form {
+        background-color: white;
+    }
+    .notice-upload-form{
+        padding: 30px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+    .notice-upload-box td{
+        padding: 10px;
+    }
+    
+    #notice-form-button{
+        padding-block: 16px;
+    }
+    
+    #notice-form-button:hover{
+        background-color: #111827;
+    }
+    
+    }
+
+    .container-main {
+        width: 93%;
+        /* height: 600px; */
+        margin: auto;
+        margin-top: 32px;
+        display: flex;
+        /* border: 1px solid black; */
+        /* justify-content: space-evenly; */
+        flex-wrap: wrap;
+    }
+    
+    .notice-item {
+        width: 21%;
+        height: 250px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgb(165, 165, 165);
+        /* border: 2px solid #9c9898; */
+        border-radius: 10px;
+        margin: 20px 23px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .notice-upper {
+        height: 75%;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-evenly; */
+        font-size: 1.7rem;
+        padding: 20px;
+    }
+    
+    .notice-heading {
+        margin-block: 15%;
+    }
+    .notice-title {
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .notice-subject {
+        text-align: center;
+    }
+    
+    .notice-bottom {
+        padding: 20px;
+    }
+    
+    .notice-button {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+@media only screen and (max-width: 599px) {
+
+    .notice-item {
+        width: 100%;
+        margin: 20px 20px;
+    }
+    .notice-upper {
+        height: 75%;
+    }
+
+}

@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* #d0d7de border color */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+
+/* navbar-toggler */
+.navbar-toggler {
+  position: absolute;
+  background-color: rgb(146, 146, 146);
+  width: 40px;
+  height: 40px;
+  z-index: 9;
+  display: none;
+}
+
+.navbar-toggler:hover {
+  cursor: pointer;
+}
+
+.sidebar {
+  position: fixed;
+  height: 100vh;
+  border-right: 1px solid #d0d7de;
+  width: 23%;
+  overflow: auto;
+  position: relative;
+  box-shadow: 0 0 7px rgb(130, 130, 130);
+}
+.sidebar .inner-sidebar {
+  height: 100%;
+}
+.sidebar .page-title {
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #d0d7de;
+}
+
+.page-title h2 {
+  text-align: center;
+}
+
+.sidebar .nav-items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar .nav-items .nav-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* border-bottom: 1px solid #c0c4c9; */
+  transition: all 1s ease;
+}
+
+.nav-links:hover {
+  background-color: rgb(199, 199, 199);
+  /* border-radius: 1rem; */
+}
+
+.nav-links a:hover {
+  font-weight: 700;
+}
+
+.sidebar .nav-items .nav-links:first-child {
+  border-top: 1px solid #d0d7de;
+}
+
+.sidebar .nav-items .nav-links a {
+  width: 100%;
+  padding: 0.5rem 2rem;
+}
+
+/* panel */
+
+.panel {
+  
+  /* background:  linear-gradient(#fff, #e991ff); */
+  flex-direction: column;
+  height: 100vh;
+  width: 77%;
+  overflow: auto;
+  text-align: center;
+}
+
+.panel .cover-image {
+  background: url('./images/blue-curve-background_53876-113112.webp');
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  background-color: blueviolet;
+  /* background: url('./images/user_icon.png') ; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 10%;
+  transform: translateY(-50%);
+  margin-bottom: -40px;
+}
+
+@media screen and (max-width: 450px) {
+  .navbar-toggler {
+    display: block;
+  }
+  .sidebar {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    z-index: 2;
+  }
+  .sidebar .inner-sidebar {
+    width: 50%;
+  }
+  .page-title h2 {
+    font-size: 1.3rem;
+  }
+  .page-title h2, .page-title p {
+    text-align: center;
+  }
+  .nav-items {
+    height: 100%;
+    border-right: 1px solid #d0d7de;
+    background-color: #fff;
+  }
+  .panel {
+    height: 100vh;
+    width: 100%;
+  }
+  .active {
+    display: block;
+  }
+  .bio {
+    flex-direction: column;
+  }
+}
+
+
+/* biodata */
+
+.bio {
+  margin-top: 25px;
+  width: 88%;
+  /* border: 1px solid #d0d7de;
+  box-shadow: 0 0 7px rgb(130, 130, 130); */
+  border-radius: 1rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.bio .bio-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio .bio-list .bio-item {
+  padding: 15px 25px;
+  display: flex;
+}
+
+.bio-data {
+  margin-left: 10px;
+}
+.btn {
+  align-self: flex-end;
+  border: 1px solid ;
+  height: 32px;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #000;
+  font-size: 16px;
+  background: #E7ECF0;
+  padding: 5px 30px 5px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ced5dc;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* jai CSS starts here */
+
+
+.profile-f-letter{
+  font-size: 60px;
+  padding-top: 25px;
+  color: #fff;
+}
+.fullsec{
+  display: flex;
+}
+.pannelsec{
+  padding: 30px;
+  width: 77%;
+}
+.edit{
+  display: flex;
+}
+.width-50{
+  width: 50%;
+}
+.margin-block-50{
+  margin-block: 50px;
+}
+
+.padding-10{
+  padding: 10px;
+}
+
+
+/* Jai CSS Ends here */
